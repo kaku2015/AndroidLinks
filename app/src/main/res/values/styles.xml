@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- 使用默认主题的颜色 -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+
+        <item name="colorPrimaryDark">?colorPrimary</item>
+
+        <item name="primary_text">@color/primary_text_dark</item>
+        <item name="secondary_text">@color/secondary_text_light</item>
+        <item name="secondary_text_disabled">@color/secondary_text_disabled_light</item>
+
+        <item name="tint_color">@color/tint_color_dark</item>
+        <item name="drawer_tint_color">@color/drawer_item</item>
+
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="android:windowAnimationStyle">@style/AppActivityAnimations</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+
+        <!-- To Make Navigation Drawer Fill Status Bar and become Transparent Too -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!--关闭启动窗口-->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@style/AppActivityAnimations</item>
+    </style>
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light">
+        <!-- 使用默认主题的颜色 -->
+        <!--<item name="colorPrimary">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorPrimaryDark">?colorPrimary</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+
+        <item name="primary_text">@color/primary_text_light</item>
+        <item name="secondary_text">@color/secondary_text_light</item>
+        <item name="secondary_text_disabled">@color/secondary_text_disabled_light</item>
+
+        <item name="tint_color">@color/tint_color_light</item>
+        <item name="drawer_tint_color">@color/drawer_item_light</item>
+
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="android:windowAnimationStyle">@style/AppActivityAnimations</item>
+    </style>
+
+
+    <style name="AppThemeLight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+
+        <!-- To Make Navigation Drawer Fill Status Bar and become Transparent Too -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!--关闭启动窗口-->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@style/AppActivityAnimations</item>
+    </style>
+
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <!-- Required for pre-Lollipop. -->
+        <item name="overlapAnchor">true</item>
+
+        <!-- Required for Lollipop. -->
+        <item name="android:overlapAnchor">true</item>
+    </style>
+
+    <style name="AppTheme.About" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!--optional-->
+        <!--<item name="aboutPageHeaderBackground">reference|color</item>-->
+        <!--<item name="aboutPageHeaderContentScrim">reference|color</item>-->
+        <!--<item name="aboutPageHeaderTextColor">color</item>-->
+        <!--<item name="aboutPageNavigationIcon">reference</item>-->
+    </style>
+
+    <style name="AppActivityAnimations">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="TextTitle" parent="TextAppearance.AppCompat.Title">
+    </style>
+
+    <style name="AppAlertDialog" parent="@android:style/DeviceDefault.ButtonBar.AlertDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

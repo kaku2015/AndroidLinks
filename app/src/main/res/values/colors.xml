@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="google_colors">
+        <item>?attr/colorAccent</item>
+    </integer-array>
+
+
+    <!-- 暗色  -->
+    <color name="primary_text_dark">#ffffffff</color>
+    <color name="secondary_text_dark">#b3ffffff</color>
+    <color name="secondary_text_disabled_dark">#ffbdbdbd</color>
+
+    <!-- 亮色 -->
+    <color name="primary_text_light">#ff333333</color>
+    <color name="secondary_text_light">#b3333333</color>
+    <color name="secondary_text_disabled_light">#80323232</color>
+
+    <color name="tint_color_dark">#FFFFFFFF</color>
+    <color name="tint_color_light">#FF333333</color>
+
+    <!-- 通用 -->
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,62 @@
+<manifest package="com.dahuo.sunflower.links"
+          xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:name="com.dahuo.sunflower.links.AndroidApp"
+                 android:allowBackup="true"
+                 android:icon="@mipmap/ic_launcher"
+                 android:roundIcon="@mipmap/ic_launcher_round"
+                 android:label="@string/app_name"
+                 android:largeHeap="true"
+                 android:supportsRtl="false"
+                 android:theme="@style/AppTheme">
+        <activity
+            android:name="com.dahuo.sunflower.links.ui.HomeAct"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.dahuo.sunflower.links.ui.SettingsActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.dahuo.sunflower.links.ui.WebActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name="com.dahuo.sunflower.links.ui.AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.About"/>
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="566cb647c847adbcb197fe3c046b63865bf4116f"
+        />
+
+        <meta-data
+            android:name="com.samsung.android.sdk.multiwindow.enable"
+            android:value="true"/>
+        <meta-data
+            android:name="com.samsung.android.sdk.multiwindow.multiinstance.enable"
+            android:value="true"/>
+        <meta-data
+            android:name="com.sec.android.multiwindow.STYLE"
+            android:value="fixedRatio"/>
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_app">
+        <![CDATA[<strong>Android 友情链接：</strong><br />
+        个人开发者，开发应用不容易，推广应用更是难上加难，欢迎加入Android应用之间的互相推荐。<br /><br />
+        <strong>应用参与条件：</strong><br />
+        \u3000\u30001.已有的功能是完善的<br />
+        \u3000\u30002.高稳定性<br />
+        \u3000\u30003.界面别太丑<br /><br />
+
+        <strong>如何加入：</strong><br />
+        \u3000\u30001.应用接入推荐：<a href="https://github.com/drakeet/about-page">About-page</a><br />
+        \u3000\u30002.应用信息发邮件：<a href="mailto:jdlingyu@gmail.com">jdlingyu@gmail.com</a><br />
+        <br />
+        <strong>团队：</strong><br />
+        lingyu0，<a href="https://www.zhaoj.in">glzjin</a>，<a href="http://drakeet.me/">drakeet</a><br />
+        <br />
+        <strong>开源(GitHub)：</strong><br />
+        <a href="https://github.com/captain-miao/AndroidLinks">AndroidLinks</a>：Android 开发者之间的友情链接<br />
+        <br />
+        <strong>第三方库：</strong><br />
+        <a href="https://github.com/shwenzhang/AndResGuard">AndResGuard</a>：proguard resource for Android<br />
+        <br />
+        <a href="https://github.com/captain-miao/UniqueAdapter">UniqueAdapter</a>：The UniqueAdapter With DataBinding<br />
+        <br />
+        <a href="https://github.com/square/picasso">Picasso</a>：A powerful image downloading and caching library<br />
+        <br />
+        <a href="https://github.com/google/gson">Gson</a>：convert Java Objects into JSON and back<br />
+        <br />
+        <a href="https://github.com/square/leakcanary">leakcanar</a>：A memory leak detection<br />
+        <br />
+        <br />
+        ]]>
+    </string>
+</resources>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Android 友链</string>
+    <string name="app_desc">Android 友情链接\r\n个人开发者之间 应用相互推荐</string>
+
+    <string name="tab_top_apps">推荐榜</string>
+    <string name="tab_recommend_apps">推荐应用</string>
+    <string name="recommend_app_info" formatted="false">%s  %sM</string>
+    <string name="recommend_total" formatted="false">推荐应用次数: %d</string>
+    <string name="open_browser" formatted="false">在浏览器打开</string>
+    <string name="chooser_browser" formatted="false">请选择浏览器</string>
+
+    <string name="nav_item_home">首页</string>
+    <string name="nav_item_setting">设置</string>
+    <string name="nav_item_about">关于</string>
+
+
+
+    <string name="about_me">E-mail：jdlingyu@gmail.com</string>
+    <string name="app_version_about" formatted="false">关于 (v%s)</string>
+
+    <string name="no_data">没有数据</string>
+    <string name="failure">失败</string>
+    <string name="navigation_drawer_open" >Open</string>
+    <string name="navigation_drawer_close" >Close</string>
+
+
+    <string name="app_appearance">外观</string>
+    <string name="pref_summary_title_theme">选择你喜欢的主题</string>
+    <string name="pref_title_theme">主题</string>
+    <string-array name="display_theme">
+        <item>暗色主题</item>
+        <item>亮色主题</item>
+    </string-array>
+
+    <string-array name="display_theme_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>
+

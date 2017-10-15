@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppThemeLight" parent="Theme.AppCompat.Light">
+        <!-- 使用默认主题的颜色 -->
+        <!--<item name="colorPrimary">@color/colorPrimaryDark</item>-->
+        <item name="colorPrimaryDark">?colorPrimary</item>
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+
+        <item name="primary_text">@color/primary_text_light</item>
+        <item name="secondary_text">@color/secondary_text_light</item>
+        <item name="secondary_text_disabled">@color/secondary_text_disabled_light</item>
+
+        <item name="tint_color">@color/tint_color_light</item>
+        <item name="drawer_tint_color">@color/drawer_item_light</item>
+
+        <item name="actionOverflowMenuStyle">@style/OverflowMenu</item>
+        <item name="android:windowAnimationStyle">@style/AppActivityAnimations</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+</resources>
