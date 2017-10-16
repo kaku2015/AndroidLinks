@@ -1,12 +1,14 @@
 package com.dahuo.sunflower.links.ui;
 
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -14,6 +16,7 @@ import android.webkit.WebViewClient;
 import com.dahuo.sunflower.links.R;
 import com.dahuo.sunflower.links.base.BaseActivity;
 import com.dahuo.sunflower.links.common.Constants;
+import com.dahuo.sunflower.links.common.Toasts;
 import com.dahuo.sunflower.links.utils.Nav;
 
 
@@ -83,11 +86,26 @@ public class WebActivity extends BaseActivity {
         webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
         webSettings.setAppCacheEnabled(true);
         webSettings.setAllowFileAccess(true);
-        webSettings.setJavaScriptEnabled(false);
         webSettings.setDomStorageEnabled(true);
         webSettings.setGeolocationEnabled(true);
-
+        webSettings.setJavaScriptEnabled(true);//启用js
+        webSettings.setBlockNetworkImage(false);
+        webSettings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);//解决图片不显示
         mWebView.setWebViewClient(new WebViewClient() {
+
+
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
+                Uri uri = request.getUrl();
+                if (uri.getHost().contains(Constants.COOL_APK_DL)
+                        || uri.getHost().contains(Constants.COOL_APK_DL_CND)) {
+                    // 提示 使用 浏览器打开
+                    Toasts.show(R.string.open_with_browser);
+                    return true;
+                }
+                return super.shouldOverrideUrlLoading(view, request);
+            }
+
 
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {

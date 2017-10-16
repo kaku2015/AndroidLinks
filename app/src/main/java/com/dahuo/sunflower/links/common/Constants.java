@@ -17,6 +17,8 @@ public class Constants {
     public static final String APP_TAB_KEY = "app_tab_key";
 
     public static final String APP_PKG_NAME = "com.dahuo.sunflower.links";
+    public static final String COOL_APK_DL = "dl.coolapk.com";
+    public static final String COOL_APK_DL_CND = "dl-cdn.coolapkmarket.com";
 
     public static final int APP_SETTING = 71; // 修改设置
 }
