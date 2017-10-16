@@ -1,6 +1,7 @@
 package com.dahuo.sunflower.links.network;
 
 
+import com.dahuo.sunflower.links.common.Constants;
 import com.dahuo.sunflower.links.common.Logger;
 import com.dahuo.sunflower.links.model.AppsResponse;
 import com.dahuo.sunflower.links.network.api.LinksApiService;
@@ -35,11 +36,11 @@ public class XadApi {
      * 应用推荐 列表
      */
     public static Call<AppsResponse> getRecommendApps(final ApiCallback<AppsResponse> apiCallback) {
-        return getRecommendApps(100, 0, apiCallback);
+        return getRecommendApps(100, 0, Constants.APP_PKG_NAME, apiCallback);
     }
-    public static Call<AppsResponse> getRecommendApps(int limit, int offset,
+    public static Call<AppsResponse> getRecommendApps(int limit, int offset, String pkgName,
                                                       final ApiCallback<AppsResponse> apiCallback) {
-        Call<AppsResponse> call = getApiService().getTopApps(limit, offset);
+        Call<AppsResponse> call = getApiService().getRecommendApps(limit, offset, pkgName);
         call.enqueue(new RetrofitCallback<>(apiCallback));
         return call;
     }

@@ -19,7 +19,7 @@ public class RecommendInfo extends BaseModel {
     public String apkSize;
     @SerializedName("iconUrl")
     public String iconUrl;
-    @SerializedName("downloadURL")
+    @SerializedName("downloadUrl")
     public String downloadUrl;
     @SerializedName("count")
     public int count;

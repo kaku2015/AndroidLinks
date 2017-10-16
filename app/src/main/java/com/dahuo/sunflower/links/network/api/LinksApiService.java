@@ -12,11 +12,11 @@ import retrofit2.http.Query;
  */
 
 public interface LinksApiService {
-    @GET("v1/app_recommend/top/pull")
+    @GET("v2/app_recommend/top/pull")
     Call<AppsResponse> getTopApps(@Query("limit") int limit,
                                   @Query("offset") int offset);
 
-    @GET("v1/app_recommend/pull")
+    @GET("v2/app_recommend/pull")
     Call<AppsResponse> getRecommendApps(@Query("limit") int limit,
                                         @Query("offset") int offset,
                                         @Query("package_name") String pkgName);
