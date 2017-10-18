@@ -7,5 +7,6 @@
 3. 界面不要太丑；
 
 ### _如何加入_
-1. 应用接入推荐：[About-page](https://github.com/drakeet/about-page)
-2. 应用信息发邮件：[jdlingyu at gmail.com](mailto:jdlingyu@gmail.com)
+1. [Android 友情链接 API 文档](https://www.zhaoj.in/read-4574.html)
+2. 也可以通过SDK接入：[About-page](https://github.com/drakeet/about-page)
+3. 应用信息发邮件：[jdlingyu at gmail.com](mailto:jdlingyu@gmail.com)
