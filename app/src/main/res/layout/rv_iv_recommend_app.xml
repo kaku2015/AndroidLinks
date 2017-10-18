@@ -22,9 +22,7 @@
         android:foreground="?selectableItemBackground"
         android:onClick="@{(v) -> onClickPresenter.onClick(v, viewModel)}"
         android:orientation="vertical"
-        android:paddingStart="@dimen/padding_horizontal"
-        android:paddingBottom="@dimen/padding_horizontal"
-        android:paddingTop="@dimen/padding_horizontal">
+        android:padding="@dimen/padding_horizontal">
 
 
         <LinearLayout
@@ -43,6 +41,7 @@
                  android:layout_height="wrap_content"
                  android:layout_gravity="center_vertical"
                  android:layout_marginStart="@dimen/padding_horizontal"
+                 android:layout_marginEnd="@dimen/padding_horizontal"
                  android:layout_weight="1"
                  android:orientation="vertical">
 
