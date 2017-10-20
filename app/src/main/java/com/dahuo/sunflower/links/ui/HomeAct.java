@@ -26,6 +26,7 @@ public class HomeAct extends BaseHomeAct {
         initTabs();
         pagerAdapter.setData(mDataList);
         mViewPager.setAdapter(pagerAdapter);
+        mViewPager.setOffscreenPageLimit(3);
         pagerAdapter.notifyDataSetChanged();
 
         TabLayout tabLayout = findViewById(R.id.tabs);
@@ -83,12 +84,9 @@ public class HomeAct extends BaseHomeAct {
         mDataList.clear();
         mDataList.add(getString(R.string.tab_top_apps));
         mDataList.add(getString(R.string.tab_recommend_apps));
+        mDataList.add(getString(R.string.tab_green_apps));
     }
 
-    public void onUpdateUserApp(int count) {
-    }
-    public void onUpdateSystemApp(int count) {
-    }
 
     protected List<String> mDataList = new ArrayList<>();
     private class RulesPagerAdapter<T extends Serializable> extends BaseFragmentStatePagerAdapter<T> {
@@ -107,6 +105,8 @@ public class HomeAct extends BaseHomeAct {
                     return TopAppFragment.newInstance(TopAppFragment.class, args);
                 case 1:
                     return RecommendAppFragment.newInstance(RecommendAppFragment.class, args);
+                case 2:
+                    return GreenAppFragment.newInstance(GreenAppFragment.class, args);
             }
 
             return null;

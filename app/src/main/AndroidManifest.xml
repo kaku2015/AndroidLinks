@@ -34,8 +34,7 @@
 
         <activity
             android:name="com.dahuo.sunflower.links.ui.AboutActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.About"/>
+            android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="android.max_aspect"

@@ -6,7 +6,7 @@ package com.dahuo.sunflower.links.common;
  */
 
 public class Constants {
-
+    public static final String APPS_JSON = "apps.json";
     public static final String SP_NAME = "sf_links";
 
     public static final String URL_KEY = "url_key";

@@ -6,6 +6,7 @@ import com.dahuo.sunflower.links.common.Logger;
 
 
 /**
+ * 只是用在 ViewPage 的 Fragment
  * @author YanLu
  * @since 17/03/22
  */
