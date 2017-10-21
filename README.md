@@ -1,4 +1,4 @@
-## Android 友情链接
+## Android 应用友链
 个人开发者，开发应用不容易，推广应用更是难上加难，欢迎加入Android应用之间的互相推荐。
 
 ## _应用参与条件_
@@ -102,25 +102,25 @@ public class AboutActivity extends AbsAboutActivity implements OnRecommendedClic
 ```
 添加至AndroidManifest.xml
 ```xml
-        <activity
-            android:name=".AboutActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.About"/>
+    <activity
+        android:name=".AboutActivity"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.About"/>
 ```
 
 
 #### 通过API加入
 > App已经有自己的框架和主题，适合API接入
 
-##### 请求接口URL：
+##### 请求接口URL：[Android 应用友链 API 文档](https://www.zhaoj.in/read-4574.html)
 
 > https://recommend.wetolink.com/api/v2/app_recommend/pull?limit=50&package_name=xx.oo
 
 ##### 参数：
-> limit(可选)：请求条数
-offset(可选)：记录起始位置，用于分页
-package_name(可选)：请求发起APP的包名，统计数据
-order_type(可选)：0或不填为随机顺序返回，1为按照App请求排行返回
+> limit(可选)：请求条数    
+offset(可选)：记录起始位置，用于分页    
+package_name(可选)：请求发起APP的包名，统计数据    
+order_type(可选)：0或不填为随机顺序返回，1为按照App请求排行返回    
 
 ##### 响应数据为List：
 RecommendedResponse.java
@@ -262,6 +262,7 @@ public class Recommended {
 把应用信息发送到 [jdlingyu at gmail.com](mailto:jdlingyu@gmail.com)，会将应用添加『Android 应用友链』列表中。
 
 ps:如果全部默认酷安的信息，直接发送酷安链接也可以。
+
 
 
 ### 『Android 应用友链』客户端：[下载Android 友链](https://www.coolapk.com/apk/164137)
