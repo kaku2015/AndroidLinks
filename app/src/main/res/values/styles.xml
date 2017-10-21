@@ -76,12 +76,6 @@
     <style name="AppTheme.About" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-
-        <!--optional-->
-        <!--<item name="aboutPageHeaderBackground">reference|color</item>-->
-        <!--<item name="aboutPageHeaderContentScrim">reference|color</item>-->
-        <!--<item name="aboutPageHeaderTextColor">color</item>-->
-        <!--<item name="aboutPageNavigationIcon">reference</item>-->
     </style>
 
     <style name="AppActivityAnimations">

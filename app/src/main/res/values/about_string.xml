@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_app">
-        <![CDATA[<strong>Android 友情链接：</strong><br />
+        <![CDATA[<strong>Android 应用友链：</strong><br />
         个人开发者，开发应用不容易，推广应用更是难上加难，欢迎加入Android应用之间的互相推荐。<br /><br />
         <strong>应用参与条件：</strong><br />
         \u3000\u30001.已有的功能是完善的<br />
@@ -9,9 +9,8 @@
         \u3000\u30003.界面别太丑<br /><br />
 
         <strong>如何加入：</strong><br />
-        \u3000\u30001.通过API接入：<a href="https://www.zhaoj.in/read-4574.html">Android 应用友链 API 文档</a><br />
-        \u3000\u30002.或者 通过SDK接入：<a href="https://github.com/drakeet/about-page">About-page</a><br />
-        \u3000\u30003.你的应用信息发邮件：<a href="mailto:jdlingyu@gmail.com">jdlingyu@gmail.com</a><br />
+        \u3000\u30001.接入『Android 应用友链』：<a href="https://github.com/android-links/AndroidLinks">Android 应用友链</a><br />
+        \u3000\u30002.你的应用信息发邮件：<a href="mailto:jdlingyu@gmail.com">jdlingyu@gmail.com</a><br />
         <br />
         <strong>团队：</strong><br />
         lingyu0，<a href="https://www.zhaoj.in">glzjin</a>，<a href="http://drakeet.me/">drakeet</a><br />

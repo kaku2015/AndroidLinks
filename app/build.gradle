@@ -84,6 +84,10 @@ dependencies {
     compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
         transitive = true;
     }
+    compile 'me.drakeet.support:about:2.0.0'
+    compile 'me.drakeet.multitype:multitype:3.3.3'
+    // extension for loading our host Android Links data
+    compile 'me.drakeet.support:about-extension:2.0.0'
 
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.2'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.2'
