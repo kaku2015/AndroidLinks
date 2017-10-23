@@ -1,0 +1,83 @@
+[
+  {
+    "appName": "闪念ToDo",
+    "packageName": "com.kdfly.todo",
+    "description": "一个ToDo计划管理App。您可以方便设置长按Home呼出来快速的进行记录工作、学习计划或者待办事项，同时使用悬浮窗对所有的ToDo事件进行管理。",
+    "downloadSize": 6.5,
+    "openWithGooglePlay": false,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/GvfkdZUcWYbQvT9Zz5o9PuTl7dlZfbWa.png",
+    "downloadUrl": "https://www.coolapk.com/apk/com.kdfly.todo"
+  },
+  {
+    "appName": "广告住手",
+    "packageName": "com.dahuo.sunflower.assistant",
+    "description": "自动跳过启动页广告，清爽你的应用。",
+    "downloadSize": 0.99,
+    "openWithGooglePlay": false,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/tGsVI7a60C5e79uawI5Q7RtWEEeoCQIQ.png",
+    "downloadUrl": "https://www.coolapk.com/apk/158808"
+  },
+  {
+    "appName": "纯纯写作",
+    "packageName": "com.drakeet.purewriter",
+    "description": "这是一个快速的纯文本编辑器，我们希望写作能够回到原本的样子：纯粹、有安全感、随时、绝对不丢失内容、具备良好的写作体验。",
+    "downloadSize": 2.93,
+    "openWithGooglePlay": true,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/YBMHN6SRpZeF0VHbPZWZGWJ2GyB6uaPx.png",
+    "downloadUrl": "https://www.coolapk.com/apk/com.drakeet.purewriter"
+  },
+  {
+    "appName": "酷克漫画",
+    "packageName": "com.vjson.anime",
+    "description": "酷克漫画，聚集超人气漫画，及时跟进漫画更新。简洁的交互，无论是地铁，还是厕所它都是你的最佳追漫神器。",
+    "downloadSize": 3.66,
+    "openWithGooglePlay": false,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/qi2eejJhplGDLOkpQkf2GL1cUY16fBnR.png",
+    "downloadUrl": "https://www.coolapk.com/apk/com.vjson.anime"
+  },
+  {
+    "appName": "增强输入Inputting+",
+    "packageName": "com.catchingnow.undo",
+    "description": "为 Android 系统增加全局的文本输入撤销重做、查找替换功能，地球上仅此一家。",
+    "downloadSize": 3.13,
+    "openWithGooglePlay": true,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/LsUNERhrVRiBuWxhLKLwSWUjYs9w1CJC.png",
+    "downloadUrl": "https://www.coolapk.com/apk/com.catchingnow.undo"
+  },
+  {
+    "appName": "隐私保护",
+    "packageName": "com.hld.anzenbokusu",
+    "description": "隐私保护是一款能为您所有的秘密提供一个安全的存储空间，并且保证您能够随时随地进行浏览的APP。",
+    "downloadSize": 7.2,
+    "openWithGooglePlay": true,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/VQohd61gQRFNxcgdaIOJrgWyMnfLOh76.png",
+    "downloadUrl": "https://www.coolapk.com/apk/com.hld.anzenbokusu"
+  },
+  {
+    "appName": "Most数据加密",
+    "packageName": "com.most.encryption",
+    "description": "本软件可以进行数据加密、转换链接工具。",
+    "downloadSize": 0.5,
+    "openWithGooglePlay": false,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/8vPd9W229A4Wl2j4fHgsQ9Ti2sEYxurX.png",
+    "downloadUrl": "https://www.coolapk.com/apk/com.most.encryption"
+  },
+  {
+    "appName": "小转发",
+    "packageName": "com.example.junnan.xiaozhuanfa",
+    "description": "备用机专用，配合『SERVER酱』将备用手机短信以及未接电话转发到指定微信。",
+    "downloadSize": 2.48,
+    "openWithGooglePlay": false,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/RyDmkAwxSTjmgsTjZthob6ZRj6AsniqY.png",
+    "downloadUrl": "https://www.coolapk.com/apk/com.example.junnan.xiaozhuanfa"
+  },
+  {
+    "appName": "Dir垃圾清理",
+    "packageName": "kh.android.dir",
+    "description": "Dir 是一款 SD卡垃圾清理工具，它可以帮助您清理垃圾文件。",
+    "downloadSize": 2.9,
+    "openWithGooglePlay": true,
+    "iconUrl": "https://storage.recommend.wetolink.com/storage/app_recommend/images/QKthaGHbqh7ImP7qo9HWTRWfXol9PdLu.png",
+    "downloadUrl": "http://coolapk.com/apk/kh.android.dir"
+  }
+]
