@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Android 友链</string>
-    <string name="app_desc">Android 友情链接\r\n个人开发者之间 应用相互推荐</string>
+    <string name="app_desc">Android 应用友链\r\n个人开发者之间的应用友情链接</string>
 
     <string name="tab_top_apps">推荐榜</string>
     <string name="tab_recommend_apps">推荐应用</string>

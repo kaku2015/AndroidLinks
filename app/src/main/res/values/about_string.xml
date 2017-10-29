@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about_app">
-        <![CDATA[<strong>Android 应用友链：</strong><br />
-        个人开发者，开发应用不容易，推广应用更是难上加难，欢迎加入Android应用之间的互相推荐。<br /><br />
-        <strong>应用参与条件：</strong><br />
+        <![CDATA[<h6>Android 应用友链：</h6>
+        Android 圈其实很多开发者开发了很多优秀的应用，不乏非常有价值的产品，国内生态又特别不好，Android 个人开发者真是非常艰难。
+        <br />
+        「Android 应用友链」计划，做 Android 开发者之间的应用友情链接，抱团共赢未来。
+        <br />
+        再小的个体，也是力量，欢迎个人开发者的应用加入。<br /><br />
+        <h6>应用参与条件：</h6>
         \u3000\u30001.已有的功能是完善的<br />
         \u3000\u30002.高稳定性<br />
         \u3000\u30003.界面别太丑<br /><br />
 
-        <strong>如何加入：</strong><br />
+        <h6>如何加入：</h6>
         \u3000\u30001.接入『Android 应用友链』：<a href="https://github.com/android-links/AndroidLinks">Android 应用友链</a><br />
         \u3000\u30002.你的应用信息发邮件：<a href="mailto:jdlingyu@gmail.com">jdlingyu@gmail.com</a><br />
         <br />
-        <strong>团队：</strong><br />
-        lingyu0，<a href="https://www.zhaoj.in">glzjin</a>，<a href="http://drakeet.me/">drakeet</a><br />
+        <h6>联合发起人：</h6>
+        \u3000\u3000<a href="https://yanlu.me">lingyu0</a><br />
+        \u3000\u3000<a href="https://www.zhaoj.in">glzjin</a><br />
+        \u3000\u3000<a href="http://drakeet.me/">drakeet</a><br />
+        \u3000\u3000<a href="http://www.androidweekly.cn/">脉脉不嘚語</a><br />
         <br />
-        <strong>开源(GitHub)：</strong><br />
+        <h6>开源(GitHub)：</h6>
         <a href="https://github.com/captain-miao/AndroidLinks">AndroidLinks</a>：Android 开发者之间的友情链接<br />
         <br />
-        <strong>第三方库：</strong><br />
+        <h6>第三方库：</h6>
         <a href="https://github.com/shwenzhang/AndResGuard">AndResGuard</a>：proguard resource for Android<br />
-        <br />
         <a href="https://github.com/captain-miao/UniqueAdapter">UniqueAdapter</a>：The UniqueAdapter With DataBinding<br />
-        <br />
         <a href="https://github.com/square/picasso">Picasso</a>：A powerful image downloading and caching library<br />
-        <br />
         <a href="https://github.com/google/gson">Gson</a>：convert Java Objects into JSON and back<br />
-        <br />
         <a href="https://github.com/square/leakcanary">leakcanar</a>：A memory leak detection<br />
         <br />
         <br />

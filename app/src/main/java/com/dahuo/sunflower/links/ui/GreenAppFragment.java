@@ -20,7 +20,7 @@ import com.dahuo.sunflower.links.model.RecommendInfo;
 import com.dahuo.sunflower.links.utils.AssetUtils;
 import com.dahuo.sunflower.links.utils.Nav;
 import com.dahuo.sunflower.links.utils.Resources;
-import com.dahuo.sunflower.links.vm.RecommendAppViewModel;
+import com.dahuo.sunflower.links.vm.GreenAppViewModel;
 import com.github.captain_miao.uniqueadapter.library.OnClickPresenter;
 import com.github.captain_miao.uniqueadapter.library.UniqueAdapter;
 import com.google.gson.reflect.TypeToken;
@@ -39,13 +39,13 @@ import static android.view.View.VISIBLE;
  * @since 17/10/20
  */
 
-public class GreenAppFragment extends LazyFragment implements OnClickPresenter<RecommendAppViewModel>, SwipeRefreshLayout.OnRefreshListener {
+public class GreenAppFragment extends LazyFragment implements OnClickPresenter<GreenAppViewModel>, SwipeRefreshLayout.OnRefreshListener {
     private static final String TAG = "GreenAppFragment";
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RecyclerView mRecyclerView;
 
     UniqueAdapter mAdapter;
-    List<RecommendAppViewModel> mData = new ArrayList<>();
+    List<GreenAppViewModel> mData = new ArrayList<>();
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -104,7 +104,7 @@ public class GreenAppFragment extends LazyFragment implements OnClickPresenter<R
     }
 
     @Override
-    public void onClick(View view, RecommendAppViewModel itemModel) {
+    public void onClick(View view, GreenAppViewModel itemModel) {
         if(itemModel.app.openWithGooglePlay) {
             Nav.openMarket(getActivity(), itemModel.app.packageName, itemModel.app.downloadUrl);
         } else {
@@ -137,7 +137,7 @@ public class GreenAppFragment extends LazyFragment implements OnClickPresenter<R
                 if(appList != null) {
                     mData.clear();
                     for (RecommendInfo rule : appList) {
-                        RecommendAppViewModel viewModel = new RecommendAppViewModel(rule);
+                        GreenAppViewModel viewModel = new GreenAppViewModel(rule);
                         mData.add(viewModel);
                     }
 

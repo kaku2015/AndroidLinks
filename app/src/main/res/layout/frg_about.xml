@@ -15,7 +15,8 @@
             android:id="@+id/tv_html"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/padding_8"
+            android:layout_margin="@dimen/padding_horizontal"
+            android:textSize="@dimen/size_16sp"
             android:lineSpacingMultiplier="1.4"/>
     </LinearLayout>
 </ScrollView>
